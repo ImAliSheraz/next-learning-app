@@ -22,13 +22,16 @@ export const metadata: Metadata = {
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <div>
+    <header className="bg-slate-300 py-4">
+      <nav className="flex items-center justify-between">
+        <div className="flex items-center">
           <Link href={'/'}>Home</Link>
         </div>
-        <div>
+        <div className="flex items-center">
           <Link href={'/skills'}>Skills</Link>
+        </div>
+        <div className="flex items-center">
+          <Link href={'/contact'}>Contact Us</Link>
         </div>
       </nav>
     </header>
