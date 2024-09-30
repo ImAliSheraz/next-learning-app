@@ -33,6 +33,9 @@ function Header() {
         <div className="flex items-center">
           <Link href={'/contact'}>Contact Us</Link>
         </div>
+        <div className="flex items-center">
+          <Link href={'/lifts'}>Lifts</Link>
+        </div>
       </nav>
     </header>
   )
